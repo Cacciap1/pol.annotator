@@ -45,10 +45,10 @@ The script expects the input dataset (`Dataset_USman_1988-2022.xlsx`) to be an E
 
 Example:
 
-| text                                                              |
-|-------------------------------------------------------------------|
-| We want to ensure flexibility for both Medicare and Medicaid.     |
-| That’s why we propose tax cuts for working families.              |
+| ID   | text                                                              |
+| ---- |-------------------------------------------------------------------|
+|      | We want to ensure flexibility for both Medicare and Medicaid.     |
+|      | That’s why we propose tax cuts for working families.              |
 
 ## Codebook Format
 
