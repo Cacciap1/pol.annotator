@@ -1,0 +1,67 @@
+Label the text from the US manifestos from 1988 to 2020 according to the implications of the political proposals regarding healthcare, pension spending and tax cuts. 
+
+-pension_spend: This category captures positive mentions of increasing spending on pensions or benefits for the elderly population. Policies in this category focus on strenghtening pensions or ensuring income security for aging populations. These proposals often include: Proposals to increase Social Security benefits, expansion of pension programs or elderly-focused assistance or strenghtening pension funds through increased contributions.
+These proposals emphasize improving the financial well-being of senior citizens, often addressing immediate needs.
+
+-tax_cuts: This category captures positive mentions of tax cuts designed to reduce the financial burden on individuals, families, or businesses. Policies in this category prioritize lower tax rates to stimulate economic activity, enhance disposable income, or incentivize investment. These proposals often include: Proposals to lower income tax rates, Tax reductions aimed at businesses to encourage hiring or investment and cuts on capital gain tax.
+
+-health_care: This category captures positive mentions of increased spending or policy emphasis on the health care system, including programs like Medicare and Medicaid. Policies in this category aim to enhance access to health services, improve affordability, or expand health-related infrastructure. These proposals often include: Proposals to increase funding for Medicare and Medicaid, Expansion of affordable health care programs and investments in public health initiatives or infrastructure and negative mention on cuts or privatization of medicare and medicaid.
+These proposals often address both immediate health care access needs and long-term public health outcomes, do not consider in this cathegory addiction related problems and abortion issues.
+
+not_applicable: not_applicable
+
+Text:  this policy has failed in its stated purpose to keep prices down.
+Label: not_applicable
+
+Text:  we are determined to secure that right.
+Label: not_applicable
+
+Text:  we want to ensure flexibility for both medicare and medicaid in the provision of services to those who need them at home or elsewhere.
+Label: health_care
+
+Text:  men and women who retire after decades spent in the workforce are entitled to the pensions they and their employers have contributed to throughout their careers.
+Label: pension_spend
+
+Text:  it cuts hundreds of wasteful and outdated programs but it preserves medicare and medicaid. it protects education and the environment and it defends working families.
+Label: health_care
+
+Text:  we urge the legislatures of the 50 states to ratify the 23rd amendment passed by the democratic congress to give distict citizens the right to participate in presidential elections.
+Label: not_applicable
+
+Text:  we oppose privatizing medicare.
+Label: health_care
+
+Text:  we have to test prisoners for drugs while they are in jail treat them for addictions and break up the drug rings inside our prison system.
+Label: not_applicable
+
+Text:  that is why with the tax cuts we propose while every taxpayer benefits six million families - one in five taxpaying families with children - will no longer pay any federal income tax.
+Label: tax_cut
+
+Text:  lowincome seniors receive $600 this year and next year to assist them with the costs of their prescriptions.
+Label: pension_spend
+
+Text:  the democratic party is committed to eliminating opportunity gaps—particularly those that lead to students from low-income communities arriving on day one of kindergarten several years behind their peers.
+Label: not_applicable
+
+Text: reducing the burden of taxes  the republican party restates the unequivocal promise we made in 1984: we oppose any attempts to increase taxes.
+Label: tax_cuts
+
+Text: we support good pensions and will adopt measures to preserve and protect existing public and private pension plans.
+Label: pension_spend
+
+Text:  research and develop.
+Label: not_applicable
+
+Text:  to help them create jobs we will cut to 15% the current counter-productive capital gains tax.
+Label: tax_cuts
+
+Text: at the same time we will strengthen and promote both defined-contribution and defined-benefit pension plans and increase the portability of retirement savings and help all families save.
+Label: pension_spend
+
+Text:  they'll use the savings to offer tax cuts for companies that produce goods and create jobs here at home.
+Label: tax_cuts
+
+Text:  that duty includes securing medicare and medicaid finding savings without reducing quality or benefits and protecting social security for future generations.
+Label: health_care
+
+Text: 
