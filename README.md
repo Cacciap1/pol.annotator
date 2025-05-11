@@ -41,7 +41,7 @@ OUTPUT_FILE = "Annotated_Dataset_Complete.xlsx"
 
 ## Input Format
 
-The script expects the input dataset (`Dataset_USman_1988-2022.xlsx`) to be an Excel file with a single sheet containing at least one column named `text`, where each row is a quasi-sentence (short political statement) to annotate.
+The script expects the input dataset (`Dataset_USman_1988-2022.xlsx`) to be an Excel file with a single sheet containing at least one column named `text`, where each row is a quasi-sentence (short political statement) to annotate. In order to recognise the origin of the quasi sentence is suggested to provide a column named `ID`.
 
 Example:
 
@@ -118,3 +118,6 @@ This project is released under the MIT License. See the `LICENSE` file for detai
 Developed by Francesco Cacciapuoti  
 Master’s Degree in Economic and Social Sciences  
 Università Commerciale Luigi Bocconi
+
+For any question feel free to contact me: francesco.cacciapuoti@studbocconi.it
+
