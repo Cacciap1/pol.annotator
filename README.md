@@ -6,7 +6,7 @@ Political Annotator with LLM (OpenAI)
 
 ## Overview
 
-This tool performs supervised annotation of political text data using the OpenAI ChatGPT API, guided by a structured codebook of label definitions and few-shot examples. It supports multi-label classification of quasi-sentences (short political statements) and was developed to enable scalable, consistent dataset creation for NLP and political economics research.
+This tool performs supervised annotation of political text data using the OpenAI ChatGPT API, guided by a structured codebook of label definitions and few-shot examples. It supports multi-label classification of quasi-sentences (short political statements) and was developed to enable scalable, consistent dataset creation for NLP and political economics research in order to quantify issue salience directly from parties manifestos.
 
 ## Academic Context
 
@@ -32,10 +32,10 @@ This tool was developed as part of a Master’s Thesis:
 1. Open the script `pol.annotator.py` in any Python IDE or editor.
 2. Set the following variables manually inside the script:
 
-API_KEY = "your_openai_api_key"  
-INPUT_FILE = "Dataset_USman_1988-2022.xlsx"  
-FEWSHOT_FILE = "few_longshots.txt"  
-OUTPUT_FILE = "Annotated_Dataset_Complete.xlsx"
+API_KEY = Insert your OPENAI API Key
+INPUT_FILE =  Insert dataset (.xlsx) directory
+FEWSHOT_FILE = Insert the codebook (.txt) directory
+OUTPUT_FILE = Set the directory for the output (.xlsx)
 
 3. Run the script. The tool will annotate each row using the ChatGPT API and save the labeled dataset to the specified output path.
 
