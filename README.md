@@ -32,10 +32,13 @@ This tool was developed as part of a Master’s Thesis:
 1. Open the script `pol.annotator.py` in any Python IDE or editor.
 2. Set the following variables manually inside the script:
 
-API_KEY = Insert your OPENAI API Key
-INPUT_FILE =  Insert dataset (.xlsx) directory
-FEWSHOT_FILE = Insert the codebook (.txt) directory
-OUTPUT_FILE = Set the directory for the output (.xlsx)
+API_KEY = Insert your OPENAI API Key.  
+
+INPUT_FILE =  Insert dataset (.xlsx) directory.  
+
+FEWSHOT_FILE = Insert the codebook (.txt) directory.  
+
+OUTPUT_FILE = Set the directory for the output (.xlsx).
 
 3. Run the script. The tool will annotate each row using the ChatGPT API and save the labeled dataset to the specified output path.
 
