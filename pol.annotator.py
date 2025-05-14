@@ -33,7 +33,7 @@ def count_tokens(text):
 # Calculate token counts for the dataset
 data['token_count'] = data['text'].apply(lambda x: count_tokens(x) if pd.notna(x) else 0)
 
-# Calculate total tokens, average tokens per row, and estimate costs
+# Calculate total tokens, average tokens per row, and estimate costs [update for changes in cost]
 total_tokens = data['token_count'].sum()
 average_tokens_per_row = data['token_count'].mean()
 cost_per_1k_tokens = 0.002  # GPT-3.5-turbo pricing
@@ -112,7 +112,7 @@ for start in range(0, len(data), batch_size):
         # Remove the text from the conversation to save context space
         messages.pop()
 
-    # Save progress after each batch
+    # Save progress after each batch [here change the directory, to keep track of the annotation process i suggest a format like the one left]
     output_file = f'C:\\Users\\LENOVO\\Desktop\\Nuova cartella\\results\\Batch_{start}_{end}.xlsx'
     batch.to_excel(output_file, index=False)
     print(f"Batch {start}-{end} saved in {output_file}")
